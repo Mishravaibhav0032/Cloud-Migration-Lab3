@@ -16,6 +16,7 @@
 
 <h1>Section 2: Migration Strategies</h1>
 <h3><b>Step 1: Determining Cloud Service Models</b></h3>
+
 | Component       | Cloud Service Model | Cloud Service         | Migration Approach                                                  |
 | --------------- | ------------------- | --------------------- | ------------------------------------------------------------------- |
 | Web Application | PaaS or IaaS        | Azure App Service     | Replatforming (Shifting to Paas if applicable else Iaas             |
