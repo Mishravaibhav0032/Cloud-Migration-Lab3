@@ -74,7 +74,7 @@
 <p> Phase 1: Lift and Shift (IaaS-Based Migration)</p>
 <li>Move web applications and databases to IaaS with minimal modifications.</li>
 <li>Establish hybrid connectivity and test cloud performance.</li>
-
+<p></p>
 <p> Phase 2: Replatforming & Optimization</p>
 <li>Transition web applications and databases from IaaS to PaaS.</li>
 <li>Move file storage and networking components to cloud-native solutions.</li>
