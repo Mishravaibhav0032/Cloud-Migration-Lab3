@@ -1,8 +1,8 @@
 # Cloud-Migration-Lab3
-<h1>Section 1: On-Premises Solution Design</h1>
+<h1>Section 1: On-Premises Solution Design </h1>
 
-<h3><b>Step 1: Identifying the Current Architecture</b></h3>
-<p>A mid-sized retail company currently operates an on-premises infrastructure with:</p>
+<h3><b>Step 1: Identification of Current Architecture</b></h3>
+<p>A company currently operates an on-premises infrastructure with the following Architecture:</p>
 
 <p><b>1. Web Application: Monolithic architecture hosted on physical servers.</b></p>
 <p><b>2. Database: SQL Server.</b></p>
