@@ -10,14 +10,14 @@
 <p><b>4. Networking: Operated through company's routers and firewalls.</b></p>
 <p><b>5. Email Service: Used to handle client's notifications.</b></p>
 
-<h3><b>Step 2: Creating an On-Premises Architecture Diagram</b></h3>
+<h3><b>Step 2: Creation of On-Premises Architecture Diagram.</b></h3>
 
 ![Image](https://github.com/user-attachments/assets/465e78e3-c3fc-45fa-a458-98692d1ea21a)
 
 <h3><b>Step 3: Identifying Components for Migration</b></h3>
 
-
 | Component        | Current State                      | Cloud Service Model (PaaS/IaaS/SaaS)                       |
+
 | ---------------- | ---------------------------------- | ---------------------------------------------------------- |
 | Web Application  | Monolithic app on physical server	| IaaS (VMs) or PaaS (App Services)                          |
 | Backend Database | SQL Server on local host           | PaaS (Managed SQL) or IaaS (Self-hosted DB)                |
