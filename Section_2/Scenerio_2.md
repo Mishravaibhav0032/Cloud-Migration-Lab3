@@ -1,4 +1,4 @@
-<h1>Section 2: Migration Strategies</h1>
+<h1>Section 2: Migration Strategies - Migration Plan</h1>
 <h3><b>Step 1: Determining Cloud Service Models</b></h3>
 
 | Component       | Cloud Service Model | Cloud Service         | Migration Approach                                                  |
@@ -17,9 +17,21 @@
 <li>Move web applications and databases to IaaS with minimal modifications.</li>
 <li>Establish hybrid connectivity and test cloud performance.</li>
 <p></p>
+<ul>1. Web Application : Deploy to Azure Virtual Machines (IaaS).</ul>
+<ul>2. Database : Migrate to Azure SQL Virtual Machines (IaaS).</ul>
+<ul>3. File Storage : Move to Azure Files or Azure Blob Storage.</ul>
+<ul>4. Networking : Set up Azure Virtual Network (VNet) and establish hybrid connectivity.</ul>
+<ul>5. Email Service : Continue using on-premises service until SaaS transition.</ul>
+<p></p>
 <p> Phase 2: Replatforming & Optimization</p>
 <li>Transition web applications and databases from IaaS to PaaS.</li>
 <li>Move file storage and networking components to cloud-native solutions.</li>
+<p></p>
+<ul>1. Web Application : Transition from IaaS VMs to Azure App Service (PaaS).</ul>
+<ul>2. Database : Migrate from SQL Server on IaaS to Azure SQL Database (PaaS).</ul>
+<ul>3. File Storage : Optimize and utilize Azure Blob Storage for scalability.</ul>
+<ul>4. Networking : Implement Azure Firewall and Azure Load Balancer for security and high availability.</ul>
+<ul>5. Email Service : Begin transition to Office 365 (SaaS).</ul>
 <p></p>
 <p> Phase 3: Full Cloud Adoption & Automation</p>
 <li>Migrate email services to SaaS.</li>
