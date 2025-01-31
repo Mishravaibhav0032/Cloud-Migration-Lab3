@@ -84,6 +84,12 @@
 <li>Transition web applications and databases from IaaS to PaaS.</li>
 <li>Move file storage and networking components to cloud-native solutions.</li>
 <p></p>
+<ul>1. Web Application : Transition from IaaS VMs to Azure App Service (PaaS).</ul>
+<ul>2. Database : Migrate from SQL Server on IaaS to Azure SQL Database (PaaS).</ul>
+<ul>3. File Storage : Optimize and utilize Azure Blob Storage for scalability.</ul>
+<ul>4. Networking : Implement Azure Firewall and Azure Load Balancer for security and high availability.</ul>
+<ul>5. Email Service : Begin transition to Office 365 (SaaS).</ul>
+<p></p>
 <p> Phase 3: Full Cloud Adoption & Automation</p>
 <li>Migrate email services to SaaS.</li>
 <li>Optimize security, cost, and performance.</li>
