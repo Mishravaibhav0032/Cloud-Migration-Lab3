@@ -26,10 +26,10 @@
 | Email Services   | SMTP server                        | SaaS (Managed Email Services like Office 365, Gmail, etc.) |
 
 <h3><b>Step 4: Description of Components & Dependencies.</b></h3>
-A. Web Application (Monolithic Architecture)
-Current State: Hosted on a physical server.
-Dependency: SQL Server for data storage.
-Cloud Migration Approach:
+<p>A. Web Application (Monolithic Architecture)</p>
+<li>Current State: Hosted on a physical server.</li>
+<li>Dependency: SQL Server for data storage.</li>
+<li>Cloud Migration Approach:</li>
 IaaS: Move to a VM-based infrastructure for easier migration.
 PaaS: Refactor into a container-based microservices architecture using Kubernetes or cloud app services.
 B. Backend Database (SQL Server)
