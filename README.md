@@ -18,7 +18,7 @@
 
 | Component        | Current State                      | Cloud Service Model (PaaS/IaaS/SaaS)                       |
 | ---------------- | ---------------------------------- | ---------------------------------------------------------- |
-| Web Application  | Monolithic app on physical server  | IaaS (VMs) or PaaS (App Services)                          |
+| Web Applications | Monolithic app on physical servers | IaaS (VMs) or PaaS (App Services)                          |
 | Backend Database | SQL Server on local host           | PaaS (Managed SQL) or IaaS (Self-hosted DB)                |
 | File Storage	 | Local file system	              | PaaS (Cloud Storage) or IaaS (File Server on VM)           |
 | Networking	 | On-prem firewalls & routers        | IaaS (Virtual Networks & Firewalls)                        |
