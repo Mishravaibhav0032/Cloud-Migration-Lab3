@@ -73,11 +73,12 @@
 <p> Phase 1: Lift and Shift (IaaS-Based Migration)</p>
 <li>Move web applications and databases to IaaS with minimal modifications.</li>
 <li>Establish hybrid connectivity and test cloud performance.</li>
-<ul>Web Application : Deploy to Azure Virtual Machines (IaaS).</ul>
-<ul>Database : Migrate to Azure SQL Virtual Machines (IaaS).</ul>
-<ul>File Storage : Move to Azure Files or Azure Blob Storage.</ul>
-<ul>Networking : Set up Azure Virtual Network (VNet) and establish hybrid connectivity.</ul>
-<ul>Email Service : Continue using on-premises service until SaaS transition.</ul>
+<p></p>
+<ul>1. Web Application : Deploy to Azure Virtual Machines (IaaS).</ul>
+<ul>2. Database : Migrate to Azure SQL Virtual Machines (IaaS).</ul>
+<ul>3. File Storage : Move to Azure Files or Azure Blob Storage.</ul>
+<ul>4. Networking : Set up Azure Virtual Network (VNet) and establish hybrid connectivity.</ul>
+<ul>5. Email Service : Continue using on-premises service until SaaS transition.</ul>
 <p></p>
 <p> Phase 2: Replatforming & Optimization</p>
 <li>Transition web applications and databases from IaaS to PaaS.</li>
