@@ -2,7 +2,7 @@
 <h1>Section 1: On-Premises Solution Design</h1>
 
 Step 1: Identifying the Current Architecture
-A mid-sized retail company currently operates an on-premises infrastructure with:
+<p>A mid-sized retail company currently operates an on-premises infrastructure with:</p>
 
 <p><b>1. Web Application: Monolithic architecture hosted on physical servers.</b></p>
 <p><b>2. Database: SQL Server.</b></p>
