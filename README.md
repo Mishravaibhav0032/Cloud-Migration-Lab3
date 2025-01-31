@@ -26,35 +26,40 @@
 | Email Services   | SMTP server                        | SaaS (Managed Email Services like Office 365, Gmail, etc.) |
 
 <h3><b>Step 4: Description of Components & Dependencies.</b></h3>
-<p>A. Web Application (Monolithic Architecture)</p>
+<p>A . Web Application (Monolithic Architecture)</p>
 <li>Current State: Hosted on a physical server.</li>
 <li>Dependency: SQL Server for data storage.</li>
 <li>Cloud Migration Approach:</li>
-IaaS: Move to a VM-based infrastructure for easier migration.
-PaaS: Refactor into a container-based microservices architecture using Kubernetes or cloud app services.
-B. Backend Database (SQL Server)
-Current State: Running on-prem SQL Server.
-Dependency: The web application queries this database for transactional data.
-Cloud Migration Approach:
-IaaS: Deploy on a Cloud VM with SQL installed.
-PaaS: Use managed database services (e.g., Azure SQL Database, AWS RDS, Google Cloud SQL).
-C. File Storage (Local File System)
-Current State: Files are stored on a local file server.
-Dependency: Web application retrieves and updates files.
-Cloud Migration Approach:
-PaaS: Using cloud storage solution (e.g Azure Blob Storage).
-IaaS: Deploying a file server in the cloud.
-D. Networking (Routers & Firewalls)
-Current State: Managed with on-prem routers and firewalls.
-Dependency: Secure access control between services and user devices.
-Cloud Migration Approach:
-IaaS: Using virtual networking solution (e.g. Azure Virtual Network).
-PaaS: Managing security solutions like firewall-as-a-service.
-E. Email Services (SMTP Server)
-Current State: SMTP server handles email notifications.
-Dependency: Used for client notifications.
-Cloud Migration Approach:
-SaaS: Use managed email services like Microsoft 365, Google Workspace, or AWS SES.
+      <li> IaaS: Move to a VM-based infrastructure for easier migration.</li>
+      <li> PaaS: Refactor into a container-based microservices architecture using Kubernetes or cloud app services.</li>
+
+<p>B . Backend Database (SQL Server)</p>
+<li>Current State: Running on-prem SQL Server.</li>
+<li>Dependency: The web application queries this database for transactional data.</li>
+<li>Cloud Migration Approach: </li>
+      <li>IaaS: Deploy on a Cloud VM with SQL installed.</li>
+      <li>PaaS: Use managed database services (e.g., Azure SQL Database, AWS RDS, Google Cloud SQL).</li>
+      
+<p>C . File Storage (Local File System)</p>
+<li>Current State: Files are stored on a local file server.</li>
+<li>Dependency: Web application retrieves and updates files.</li>
+<li>Cloud Migration Approach:</li>
+      <li>PaaS: Using cloud storage solution (e.g Azure Blob Storage).</li>
+      <li>IaaS: Deploying a file server in the cloud.</li>
+
+<p>D . Networking (Routers & Firewalls)</p>
+<li>Current State: Managed with on-prem routers and firewalls.</li>
+<li>Dependency: Secure access control between services and user devices.</li>
+<li>Cloud Migration Approach:</li>
+      <li>IaaS: Using virtual networking solution (e.g. Azure Virtual Network).</li>
+      <li>PaaS: Managing security solutions like firewall-as-a-service.</li>
+
+<p>E . Email Services (SMTP Server)</p>
+<li>Current State: SMTP server handles email notifications.</li>
+<li>Dependency: Used for client notifications.</li>
+      <li>Cloud Migration Approach:</li>
+      <li>SaaS: Use managed email services like Microsoft 365.</li>
+
 <h1>Section 2: Migration Strategies</h1>
 <h3><b>Step 1: Determining Cloud Service Models</b></h3>
 
