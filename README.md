@@ -4,7 +4,7 @@
 Step 1: Identifying the Current Architecture
 A mid-sized retail company currently operates an on-premises infrastructure with:
 
-Web Application: Monolithic architecture hosted on physical servers.
+<p>Web Application: Monolithic architecture hosted on physical servers.</p>
 Database: SQL Server.
 File Storage: Local file system.
 Networking: Managed by company-operated routers and firewalls.
