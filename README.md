@@ -16,3 +16,10 @@
 
 <h1>Section 2: Migration Strategies</h1>
 <h3><b>Step 1: Determining Cloud Service Models</b></h3>
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+
