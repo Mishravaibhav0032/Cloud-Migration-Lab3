@@ -31,37 +31,30 @@
 <li>Dependency: SQL Server for data storage.</li>
 <li>Cloud Migration Approach:</li>
       <ul> IaaS: Move to a VM-based infrastructure for easier migration.</ul>
-      <li> PaaS: Refactor into a container-based microservices architecture using Kubernetes or cloud app services.</li>
-
+      <ul> PaaS: Refactor into a container-based microservices architecture using Kubernetes or cloud app services.</ul>
 <p>B . Backend Database (SQL Server)</p>
 <li>Current State: Running on-prem SQL Server.</li>
 <li>Dependency: The web application queries this database for transactional data.</li>
 <li>Cloud Migration Approach: </li>
-      <li>IaaS: Deploy on a Cloud VM with SQL installed.</li>
-      <li>PaaS: Use managed database services (e.g., Azure SQL Database, AWS RDS, Google Cloud SQL).</li>
-
-      
+      <ul>IaaS: Deploy on a Cloud VM with SQL installed.</ul>
+      <ul>PaaS: Use managed database services (e.g., Azure SQL Database).</ul>
 <p>C . File Storage (Local File System)</p>
 <li>Current State: Files are stored on a local file server.</li>
 <li>Dependency: Web application retrieves and updates files.</li>
 <li>Cloud Migration Approach:</li>
-      <li>PaaS: Using cloud storage solution (e.g Azure Blob Storage).</li>
-      <li>IaaS: Deploying a file server in the cloud.</li>
-
-
+      <ul>PaaS: Using cloud storage solution (e.g Azure Blob Storage).</ul>
+      <ul>IaaS: Deploying a file server in the cloud.</ul>
 <p>D . Networking (Routers & Firewalls)</p>
 <li>Current State: Managed with on-prem routers and firewalls.</li>
 <li>Dependency: Secure access control between services and user devices.</li>
 <li>Cloud Migration Approach:</li>
-      <li>IaaS: Using virtual networking solution (e.g. Azure Virtual Network).</li>
-      <li>PaaS: Managing security solutions like firewall-as-a-service.</li>
-
-
+      <ul>IaaS: Using virtual networking solution (e.g. Azure Virtual Network).</ul>
+      <ul>PaaS: Managing security solutions like firewall-as-a-service.</ul>
 <p>E . Email Services (SMTP Server)</p>
 <li>Current State: SMTP server handles email notifications.</li>
 <li>Dependency: Used for client notifications.</li>
-      <li>Cloud Migration Approach:</li>
-      <li>SaaS: Use managed email services like Microsoft 365.</li>
+      <ul>Cloud Migration Approach:</ul>
+      <ul>SaaS: Use managed email services like Microsoft 365.</ul>
 
 <h1>Section 2: Migration Strategies</h1>
 <h3><b>Step 1: Determining Cloud Service Models</b></h3>
