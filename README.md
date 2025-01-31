@@ -33,12 +33,14 @@
       <li> IaaS: Move to a VM-based infrastructure for easier migration.</li>
       <li> PaaS: Refactor into a container-based microservices architecture using Kubernetes or cloud app services.</li>
 
+
 <p>B . Backend Database (SQL Server)</p>
 <li>Current State: Running on-prem SQL Server.</li>
 <li>Dependency: The web application queries this database for transactional data.</li>
 <li>Cloud Migration Approach: </li>
       <li>IaaS: Deploy on a Cloud VM with SQL installed.</li>
       <li>PaaS: Use managed database services (e.g., Azure SQL Database, AWS RDS, Google Cloud SQL).</li>
+
       
 <p>C . File Storage (Local File System)</p>
 <li>Current State: Files are stored on a local file server.</li>
@@ -47,12 +49,14 @@
       <li>PaaS: Using cloud storage solution (e.g Azure Blob Storage).</li>
       <li>IaaS: Deploying a file server in the cloud.</li>
 
+
 <p>D . Networking (Routers & Firewalls)</p>
 <li>Current State: Managed with on-prem routers and firewalls.</li>
 <li>Dependency: Secure access control between services and user devices.</li>
 <li>Cloud Migration Approach:</li>
       <li>IaaS: Using virtual networking solution (e.g. Azure Virtual Network).</li>
       <li>PaaS: Managing security solutions like firewall-as-a-service.</li>
+
 
 <p>E . Email Services (SMTP Server)</p>
 <li>Current State: SMTP server handles email notifications.</li>
