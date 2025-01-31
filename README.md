@@ -10,7 +10,8 @@
 <p><b>4. Networking: Managed by company-operated routers and firewalls.</b></p>
 <p><b>5. Email Service: Handles client notifications.</b></p>
 
-Step 2: Creating an On-Premises Architecture Diagram
+<h1>Step 2: Creating an On-Premises Architecture Diagram</h1>
+
 ![Image](https://github.com/user-attachments/assets/465e78e3-c3fc-45fa-a458-98692d1ea21a)
 
 
