@@ -66,3 +66,35 @@
 | File Storage    | PaaS or IaaS        | Azure Blob Storage    | Refactor (Migrating to cloud-native storage services)               |
 | Networking      | Cloud-Native        | Azure Virtual Network | Rearchitect (Moving towards cloud-based networking)                 |
 | Email Service   | Saas                | Office 365            | Replace (Accepting SaaS-based email services)                       |
+
+
+<h3><b>Step 2: Hybrid Migration Approach</b></h3>
+
+<p>This plan follows a phased migration strategy:</p>
+<p>Phase 1: Lift and Shift (IaaS-Based Migration)</p>
+<li>Move web applications and databases to IaaS with minimal modifications.</li>
+<li>Establish hybrid connectivity and test cloud performance.</li>
+
+Phase 2: Replatforming & Optimization
+
+Transition web applications and databases from IaaS to PaaS.
+
+Move file storage and networking components to cloud-native solutions.
+
+Phase 3: Full Cloud Adoption & Automation
+
+Migrate email services to SaaS.
+
+Optimize security, cost, and performance.
+
+Implement cloud automation and monitoring tools.
+
+Final Considerations
+
+Security & Compliance: Implement IAM policies, encryption, and compliance standards.
+
+Backup & Disaster Recovery: Utilize cloud backup solutions and multi-region replication.
+
+Performance Monitoring: Use cloud-native monitoring tools (e.g., AWS CloudWatch, Azure Monitor).
+
+Cost Optimization: Leverage reserved instances and autoscaling features to optimize costs.
