@@ -89,3 +89,5 @@
 <li>3. Monitor Performance : Using cloud-native monitoring tools (e.g. Azure Monitor).</li>
 <li>4. Optimization of Cost : Purchasing reserved instances and autoscaling features to improve costs.</li>
 
+
+
