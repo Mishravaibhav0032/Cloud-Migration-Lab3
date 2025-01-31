@@ -74,13 +74,16 @@
 <p>Phase 1: Lift and Shift (IaaS-Based Migration)</p>
 <li>Move web applications and databases to IaaS with minimal modifications.</li>
 <li>Establish hybrid connectivity and test cloud performance.</li>
+
 <p>Phase 2: Replatforming & Optimization</p>
 <li>Transition web applications and databases from IaaS to PaaS.</li>
 <li>Move file storage and networking components to cloud-native solutions.</li>
+
 <p>Phase 3: Full Cloud Adoption & Automation</p>
 <li>Migrate email services to SaaS.</li>
 <li>Optimize security, cost, and performance.</li>
 <li>Implement cloud automation and monitoring tools.</li>
+
 <p>Final Considerations</p>
 <li>1. Security & Compliance : Implement IAM policies, encryption, and compliance standards.</li>
 <li>2. Backup & Disaster Recovery : Utilize cloud backup solutions and multi-region replication.</li>
