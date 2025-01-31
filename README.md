@@ -30,9 +30,8 @@
 <li>Current State: Hosted on a physical server.</li>
 <li>Dependency: SQL Server for data storage.</li>
 <li>Cloud Migration Approach:</li>
-      <li> IaaS: Move to a VM-based infrastructure for easier migration.</li>
+      <ul> IaaS: Move to a VM-based infrastructure for easier migration.</ul>
       <li> PaaS: Refactor into a container-based microservices architecture using Kubernetes or cloud app services.</li>
-
 
 <p>B . Backend Database (SQL Server)</p>
 <li>Current State: Running on-prem SQL Server.</li>
