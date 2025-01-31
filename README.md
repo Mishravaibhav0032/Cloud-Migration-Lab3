@@ -15,4 +15,4 @@
 ![Image](https://github.com/user-attachments/assets/465e78e3-c3fc-45fa-a458-98692d1ea21a)
 
 <h1>Section 2: Migration Strategies</h1>
-
+<h3><b>Step 1: Determining Cloud Service Models</b></h3>
